@@ -1,6 +1,11 @@
+body
+{
+	margin: 0px;
+}
 section.section1
 {
-	width: 60%;
+	height: 70%;
+	width: 55%;
 	padding: 10px;
 	border: 1px solid black;
 	margin-right: 60px;
@@ -8,11 +13,13 @@ section.section1
 	margin-top: 25px;
 	margin-bottom:25px;
 	background-color: rgb(253, 243, 202);
+	overflow: hidden;
+
 
 }
 section.sidesection
 {
-	
+	max-height: 25%;
 	padding: 10px;
 	border: 1px solid black;
 	margin-top: 25px;
@@ -21,17 +28,16 @@ section.sidesection
 	margin-left: 60px;
 	background-color: rgb(255, 253, 245);
 
+
 	
 }
-header:hover
-{
 
-}
 header
 {
-	background-color: rgb(134, 150, 164);
-	padding: 10px;
+	padding: 30px;
 	color: white;
+	background-color: rgb(134, 150, 164);
+	
 }
 h1
 {
@@ -57,11 +63,14 @@ footer
 .sectionpicture
 {
 	float: left;
+
+
 }
 .link
 {
+
 	padding: 10px;
-	float:left;
+	float: left;
 }
 .link:hover
 {
